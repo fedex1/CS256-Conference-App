@@ -45,7 +45,7 @@ define(['views/base-view'], function (BaseView) {
 
         var sectionContainer = document.createElement('section');
         sectionContainer.classList.add('wifi-details');
-        sectionContainer.appendChild(table);
+        //sectionContainer.appendChild(table);
 
         return sectionContainer;
     }
