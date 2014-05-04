@@ -28,10 +28,13 @@ define(['views/base-view'], function (BaseView) {
         sectionContainer.classList.add('menu-items-grid');
 
         var anchors = [
+        /*
             {
                 text: 'Schedule',
                 eventName: 'ShowSchedule'
-            }, {
+            }, 
+            */
+            {
                 text: 'Map',
                 eventName: 'ShowMap'
             }, {

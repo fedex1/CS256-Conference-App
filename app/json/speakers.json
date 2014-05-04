@@ -2,87 +2,23 @@
 	"data": {
 		"speakers" : [
 			{
-				"id": "chris_wilson",
-				"name": "Chris Wilson",
+				"id": "givon_z",
+				"name": "Givon Z",
 				"photoUrl": "images/profiles/chris_wilson.jpg",
 				"sessions": [
 					{
 						"id": "session03",
-						"title": "Remixing the Web"
+						"title": "Founder and Dedicated to seeing happy customers"
 					}
 				]
 			}, {
-				"id": "colt_mcanlis",
-				"name": "Colt McAnlis",
+				"id": "ralph_y",
+				"name": "Ralph Y",
 		        "photoUrl": "images/profiles/colt_mcanlis.jpg",
 				"sessions": [
 					{
 						"id": "session09",
-						"title": "Evitar a Guarda: strategies for avoiding the guard"
-					}
-				]
-			}, {
-				"id": "eric_bidelman",
-				"name": "Eric Bidelman",
-	            "photoUrl": "images/profiles/eric_bidelman.jpg",
-				"sessions": [
-					{
-						"id": "session01",
-						"title": "A More Awesome Web: Features You've Always Wanted"
-					}
-				]
-			}, {
-				"id": "matt_gaunt",
-				"name": "Matt Gaunt",
-				"photoUrl": "images/profiles/matt_gaunt.jpg",
-				"sessions": [
-					{
-						"id": "session02",
-						"title": "The Modern Workflow for Developing the Mobile Web"
-					},
-					{
-						"id": "session06",
-						"title": "I love me spinach and I love me mobile web, who doesn’t?"
-					}
-				]
-			}, {
-				"id": "paul_kinlan",
-		        "name": "Paul Kinlan",
-		        "photoUrl": "images/profiles/paul_kinlan.jpg",
-		        "sessions": [
-		        	{
-				    	"id": "session08",
-				        "title": "Haberdashery and the zen of monkey tickling"
-					}
-				]
-			}, {
-				"id": "peter_lubbers",
-				"name": "Peter Lubbers",
-				"photoUrl": "images/profiles/peter_lubbers.jpg",
-				"sessions": [
-					{
-						"id": "session04",
-						"title": "A More Awesome Web: Features You've Always Wanted"
-					}
-				]
-			}, {
-				"id": "sandro_paganotti",
-				"name": "Sandro Paganotti",
-				"photoUrl": "images/profiles/sandro_paganotti.jpg",
-				"sessions": [
-					{
-						"id": "session05",
-						"title": "Is CSS a Turing complete language?"
-					}
-				]
-			}, {
-				"id": "sam_dutton",
-				"name": "Sam Dutton",
-				"photoUrl": "images/profiles/sam_dutton.jpg",
-				"sessions": [
-					{
-						"id": "session07",
-						"title": "EME: WTF?"
+						"title": "Technical Support!"
 					}
 				]
 			}
