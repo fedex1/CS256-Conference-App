@@ -36,7 +36,7 @@ define(['views/base-view'], function (BaseView) {
                 text: 'Map',
                 eventName: 'ShowMap'
             }, {
-                text: 'Installers',
+                text: 'Tech Team',
                 eventName: 'ShowSpeakers'
             }, {
                 text: 'Profile',

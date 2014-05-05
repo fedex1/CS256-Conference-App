@@ -1,17 +1,7 @@
 {
 	"data": {
 		"speakers" : [
-			{
-				"id": "givon_z",
-				"name": "Givon Z",
-				"photoUrl": "images/profiles/chris_wilson.jpg",
-				"sessions": [
-					{
-						"id": "session03",
-						"title": "Founder and Dedicated to seeing happy customers"
-					}
-				]
-			}, {
+            {
 				"id": "ralph_y",
 				"name": "Ralph Y",
 		        "photoUrl": "images/profiles/colt_mcanlis.jpg",

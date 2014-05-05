@@ -29,7 +29,9 @@ define(['config'], function (config) {
 
     ScheduleModel.prototype.getTrackData = function(successCb, errorCb) {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', config.getRootUrl()+'/json/schedule.json', true);
+        //xhr.open('GET', config.getRootUrl()+'/json/schedule.json', true);
+        xhr.open('GET', config.getRootUrl()+'/api/311.json', true);
+        //xhr.open('GET', config.getScriptUrl()+'?callback=aaa', true);
 
         var that = this;
         xhr.onreadystatechange = (function(e) {

@@ -35,6 +35,9 @@ handlers:
   http_headers:
     Access-Control-Allow-Origin: "*"
 
+- url: /api/.*
+  script: main.application
+
 - url: /.*
   static_files: index.html
   upload: index\.html

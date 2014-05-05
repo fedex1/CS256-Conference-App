@@ -3,18 +3,18 @@ define(['views/base-view'], function (BaseView) {
     'use strict';
 
 
-    function aaa(data){
-        console.log(data)
-    }
 
     function ScheduleView() {
 
+/* Attempt to use JSONP
     var script = document.createElement('script'); 
-    script.src = '//script.google.com/macros/s/AKfycbzBrhF5qSespuqYeSWCe4puBe5OJv49euk93ESTWlELjuDELDM/exec?callback=aaa' 
+    //script.src = '//script.google.com/macros/s/AKfycbzBrhF5qSespuqYeSWCe4puBe5OJv49euk93ESTWlELjuDELDM/exec?callback=aaa' 
+    script.src = '//script.google.com/macros/s/AKfycbzaxbWvMoqfu-J1feZ8DzUuINz7YcOE-vdnsi-Ts0E/dev?callback=aaa'
     script.type = 'text/javascript';
     script.async = true;
     document.getElementsByTagName('head')[0].appendChild(script); 
     // or document.head.appendChild(script) in modern browsers
+*/
 
 
         BaseView.call(this);

@@ -20,11 +20,16 @@
         <script>
         function aaa(data){
         //console.log(JSON.stringify(data))
+        //document.getElementById('info-311').value = JSON.stringify(data)
+        document.getElementById('info-311').innerHTML = JSON.stringify(data)
+        //jQuery('#info-311').html(JSON.stringify(data))
         alert(JSON.stringify(data))
         }
         </script>
     </head>
     <body>
+    <p id="info-311">
+    </p>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
