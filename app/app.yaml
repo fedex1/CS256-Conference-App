@@ -38,6 +38,15 @@ handlers:
 - url: /api/.*
   script: main.application
 
+- url: /schedule
+  script: main2.application
+
 - url: /.*
   static_files: index.html
   upload: index\.html
+
+libraries:                                                                      
+- name: jinja2                                                                  
+  version: latest                                                               
+- name: markupsafe                                                              
+  version: latest  
