@@ -101,6 +101,7 @@ define([], function () {
         for(var i = 0; i < noOfSteps; i++) {
             timeLineElement = document.createElement('li');
             textNode = document.createTextNode(getTimeString(startStep));
+            console.log(getTimeString(startStep))
             timeLineElement.appendChild(textNode);
 
             timeLineElement.style['min-width'] = elementMinWidth+'px';
@@ -119,6 +120,7 @@ define([], function () {
         var rowElement = document.createElement('div');
         rowElement.style.height = rowHeight +'px';
         rowElement.style.width = timelineWidth+'px';
+        //rowElement.style.color = 'red';
         rowElement.classList.add('row');
         if(typeof track.class !== undefined && track.class.length > 0) {
             rowElement.classList.add(track.class);
@@ -130,6 +132,10 @@ define([], function () {
     function createSessionElement(sessionData, gridStartTime, borderWidth, padding, pixelsPerMinute, rowHeight) {
         var sessionElement = document.createElement('div');
         var textNode = document.createTextNode(sessionData.title);
+        console.log(sessionData.title)
+        if (sessionData.title.contains('NOT '){
+            textNode.style.color = 'red';
+        }
         sessionElement.appendChild(textNode);
 
         var gridStart = gridStartTime.getTime() / 1000;
@@ -173,6 +179,7 @@ define([], function () {
         var rowElement = createTrackRow(rowHeight, trackData, timelineWidth);
         rowElement.classList.add('first-row');
         rowElement.style.height = (rowHeight+borderWidth) +'px';
+        //rowElement.style.color = 'red';
         trackRows.push(rowElement);
         gridContent.appendChild(trackRows[0]);
 
@@ -204,6 +211,7 @@ define([], function () {
     function createTrackTitle(track, numberOfRows, borderWidth, rowHeight) {
         var trackTitleElement = document.createElement('li');
         var titleTextNode = document.createTextNode(track.title);
+        console.log('track.title: ' + track.title)
         trackTitleElement.appendChild(titleTextNode);
 
         trackTitleElement.style.height = (numberOfRows * rowHeight) + 'px';
