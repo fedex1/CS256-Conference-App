@@ -296,7 +296,19 @@ module.exports = function (grunt) {
         // Put files not handled in other tasks here
         copy: {
             dist: {
-                files: [{
+                files: [
+                /*
+                {
+                    expand: true,
+                    dot: true,
+                    cwd: '<%= yeoman.dist %>',
+                    dest: '<%= yeoman.dist %>/templates',
+                    src: [
+                        'index.html'
+                    ]
+                },
+                */
+                {
                     expand: true,
                     dot: true,
                     cwd: '<%= yeoman.app %>',
@@ -306,7 +318,7 @@ module.exports = function (grunt) {
                         '*.{py,ico,png,txt,yaml,appcache,css}',
                         '.htaccess',
                         'images/{,*/}*.{webp,gif,jpg,woff}',
-                        'templates/*',
+                        //'templates/*',
                         'styles/fonts/*'
                     ]
                 }, {

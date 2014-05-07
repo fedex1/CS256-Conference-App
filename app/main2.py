@@ -25,7 +25,7 @@ class SchedulePage(webapp2.RequestHandler):
         self.response.write(template.render(template_values))
 
 application = webapp2.WSGIApplication([
-    #('/', MainPage),
+    ('/', SchedulePage),
     ('/schedule', SchedulePage),
 ], debug=True)
 

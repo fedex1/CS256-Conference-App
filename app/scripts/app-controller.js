@@ -152,7 +152,8 @@ define([], function () {
                 callback: function() {changeState(STATE_SCHEDULE);}
             },{
                 eventName: 'Home',
-                callback: function() {changeState(STATE_HOME);}
+                //callback: function() {changeState(STATE_HOME);}
+                callback: function() {changeState(STATE_SCHEDULE);}
             },{
                 eventName: 'ShowMap',
                 callback: function() {changeState(STATE_MAP);}
@@ -188,7 +189,8 @@ define([], function () {
 
     function init() {
         // Find the URL we need to load
-        changeState(STATE_HOME);
+        //changeState(STATE_HOME);
+        changeState(STATE_SCHEDULE);
         registerEventListeners();
     }
 
